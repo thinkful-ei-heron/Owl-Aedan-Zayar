@@ -7,7 +7,7 @@ export default class Participants extends React.Component {
     render() {
         let parti = this.props.part.map(item => {
             return (
-            <li key={item.id}>
+            <li key={item.id} className = 'participants'>
                 <img src={item.avatar} alt="Avatar"/>
                 <div>
                     <p>{item.name}</p>

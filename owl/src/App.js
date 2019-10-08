@@ -8,9 +8,11 @@ import Stage from './components/Stage';
 
 function App() {
   return (
-    <div>
-      <Participants part={store.participants} />
-      <Chat participants={store.participants} events={store.chatEvents} />
+    <div className="owl">
+      <div>
+        <Participants part={store.participants} />
+        <Chat participants={store.participants} events={store.chatEvents} />
+      </div>
       <Stage part={store.participants} />
     </div>
   );

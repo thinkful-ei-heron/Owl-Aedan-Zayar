@@ -75,7 +75,7 @@ export default class Chat extends React.Component {
     })
 
     return (
-      <div className="chat">
+      <div className="Chat">
         <ul>
           {chatEvents}
         </ul>
