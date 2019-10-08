@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stage component Renders as expected 1`] = `
+<div
+  className="Stage"
+>
+  <div
+    className="staged-participant"
+  >
+    <div
+      className="staged-name"
+    >
+      <span>
+        Koren Templeton
+      </span>
+      <div
+        className="stage-icons"
+      />
+    </div>
+    <div>
+      <img
+        alt="Avatar"
+        src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+      />
+    </div>
+  </div>
+  <div
+    className="staged-participant"
+  >
+    <div
+      className="staged-name"
+    >
+      <span>
+        Ashla Attwool
+      </span>
+      <div
+        className="stage-icons"
+      />
+    </div>
+    <div>
+      <img
+        alt="Avatar"
+        src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+      />
+    </div>
+  </div>
+</div>
+`;

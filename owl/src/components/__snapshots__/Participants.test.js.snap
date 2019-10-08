@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Participants component Renders the UI as expected 1`] = `
+<ul>
+  <li>
+    <img
+      alt="Avatar"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+    <div>
+      <p>
+        Koren Templeton
+      </p>
+      <span
+        className="inSessiontrue"
+      />
+      <span
+        className="onStagetrue"
+      />
+    </div>
+  </li>
+  <li>
+    <img
+      alt="Avatar"
+      src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+    />
+    <div>
+      <p>
+        Caty Flucker
+      </p>
+      <span
+        className="inSessiontrue"
+      />
+      <span
+        className="onStagefalse"
+      />
+    </div>
+  </li>
+  <li>
+    <img
+      alt="Avatar"
+      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+    />
+    <div>
+      <p>
+        Axe Kubicka
+      </p>
+      <span
+        className="inSessionfalse"
+      />
+      <span
+        className="onStagefalse"
+      />
+    </div>
+  </li>
+  <li>
+    <img
+      alt="Avatar"
+      src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+    />
+    <div>
+      <p>
+        Frank Runciman
+      </p>
+      <span
+        className="inSessiontrue"
+      />
+      <span
+        className="onStagefalse"
+      />
+    </div>
+  </li>
+  <li>
+    <img
+      alt="Avatar"
+      src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+    />
+    <div>
+      <p>
+        Ashla Attwool
+      </p>
+      <span
+        className="inSessiontrue"
+      />
+      <span
+        className="onStagetrue"
+      />
+    </div>
+  </li>
+</ul>
+`;
