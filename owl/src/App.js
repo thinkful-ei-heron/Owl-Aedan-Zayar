@@ -4,11 +4,15 @@ import './App.css';
 import Participants from './components/Participants';
 import store from './store';
 import Chat from './components/Chat';
+import Stage from './components/Stage';
 
 function App() {
   return (
-    // <Participants part={store.participants} />
-    <Chat participants={store.participants} events={store.chatEvents} />
+    <div>
+      <Participants part={store.participants} />
+      <Chat participants={store.participants} events={store.chatEvents} />
+      <Stage part={store.participants} />
+    </div>
   );
 }
 

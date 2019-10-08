@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat component Renders as expected 1`] = `
+<div
+  className="chat"
+>
+  <ul>
+    <li
+      className="messageEvent"
+    >
+      <div>
+        <img
+          alt="avatar"
+          src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+        />
+        <span>
+          Axe Kubicka
+        </span>
+        <time>
+          07:50:46 GMT-0500 (EST)
+        </time>
+      </div>
+      <div>
+        <p>
+          Hello world
+        </p>
+      </div>
+    </li>
+    <li
+      className="chatEvent"
+    >
+      <span
+        className="chat-event-name"
+      >
+        Caty Flucker
+         
+      </span>
+      <span
+        className="chat-event-content"
+      >
+        gave a thumbs up
+      </span>
+    </li>
+    <li
+      className="chatEvent"
+    >
+      <span
+        className="chat-event-name"
+      >
+        Frank Runciman
+         
+      </span>
+      <span
+        className="chat-event-content"
+      >
+        gave a thumbs down
+      </span>
+    </li>
+    <li
+      className="chatEvent"
+    >
+      <span
+        className="chat-event-name"
+      >
+        Koren Templeton
+         
+      </span>
+      <span
+        className="chat-event-content"
+      >
+        raised their hand
+      </span>
+    </li>
+    <li
+      className="chatEvent"
+    >
+      <span
+        className="chat-event-name"
+      >
+        Koren Templeton
+         
+      </span>
+      <span
+        className="chat-event-content"
+      >
+        clapped
+      </span>
+    </li>
+    <li
+      className="chatEvent"
+    >
+      <span
+        className="chat-event-name"
+      >
+        Koren Templeton
+         
+      </span>
+      <span
+        className="chat-event-content"
+      >
+        joined.
+      </span>
+    </li>
+    <li
+      className="chatEvent"
+    >
+      <span
+        className="chat-event-name"
+      >
+        Ashla Attwool
+         
+      </span>
+      <span
+        className="chat-event-content"
+      >
+        left
+      </span>
+    </li>
+    <li
+      className="chatEvent"
+    >
+      <span
+        className="chat-event-name"
+      >
+        Axe Kubicka
+         
+      </span>
+      <span
+        className="chat-event-content"
+      >
+        joined the stage
+      </span>
+    </li>
+    <li
+      className="chatEvent"
+    >
+      <span
+        className="chat-event-name"
+      >
+        Axe Kubicka
+         
+      </span>
+      <span
+        className="chat-event-content"
+      >
+        left the stage
+      </span>
+    </li>
+  </ul>
+</div>
+`;

@@ -3,7 +3,7 @@ import React from 'react';
 
 export default class Chat extends React.Component {
   renderChatEvent(event, index) {
-    let name = event.name;
+    let name = this.props.participants.find(item => item.id === event.participantId).name;
     let content = '';
     switch (event.type) {
       case 'thumbs-up':
@@ -42,7 +42,7 @@ export default class Chat extends React.Component {
 
   renderMessageEvent(event, index) {
     let message = event.message;
-    let time = new Date(event.time);
+    let time = new Date(event.time).toTimeString();
     let sender = this.props.participants.find(item => item.id === event.participantId);
     let name = sender.name;
     let avatar = sender.avatar;
@@ -63,7 +63,6 @@ export default class Chat extends React.Component {
   render() {
 
     let events = this.props.events;
-    let participants = this.props.participants;
     let chatEvents = [];
 
     events.forEach((event, index) => {
